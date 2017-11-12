@@ -10,4 +10,8 @@ class FirstTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals(2, 2);
 	}
 	
+	public function testThree() {
+		$this->assertEquals(3, 3);
+	}
+	
 }
